@@ -1,11 +1,12 @@
 import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Producto } from './components/producto/entity/producto.entity';
 
 import { ProductoModule } from './components/producto/producto.module';
 
 @Module({
-  imports: [ProductoModule, TypeOrmModule.forRoot({
+  imports: [ProductoModule, ConfigModule.forRoot(), TypeOrmModule.forRoot({
       url: process.env.DATABASE_URL,
       type: 'postgres',
       ssl: {
