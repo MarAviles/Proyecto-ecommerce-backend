@@ -21,7 +21,7 @@ config()
     },
     entities: [Producto],
     autoLoadEntities: true,
-    synchronize: true
+    synchronize: false
   })],
   controllers: [],
   providers: [],
