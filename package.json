@@ -75,5 +75,8 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "resolutions" : {
+  "styled-components": "5.3.3"
   }
 }
