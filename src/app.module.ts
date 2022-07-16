@@ -3,7 +3,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Producto } from './components/producto/entity/producto.entity';
 
 import { ProductoModule } from './components/producto/producto.module';
+import { config } from 'dotenv';
 
+config()
 @Module({
   imports: [ProductoModule, TypeOrmModule.forRoot({
     type: 'postgres',
