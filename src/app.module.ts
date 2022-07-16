@@ -9,9 +9,9 @@ import { ProductoModule } from './components/producto/producto.module';
     type: 'postgres',
     host: 'ec2-3-217-14-181.compute-1.amazonaws.com',
     port: 5432,
-    username: 'dldgtwurfjgvqg',
-    password: 'ad444505e033da3763c1acf89d1870b5b71b768399f44867f9404b13462a1532',
-    database: 'd2p3bde51uejl1',
+    username: 'cpiqgpwxgxmqjp',
+    password: '9cffcba54244496f881342b3473dda500f4ec86d09e45ebc8140a1b095644e70',
+    database: 'd4s3lg2c9olatn',
     entities: [Producto],
     autoLoadEntities: true,
     synchronize: true
