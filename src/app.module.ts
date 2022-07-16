@@ -12,6 +12,11 @@ import { ProductoModule } from './components/producto/producto.module';
     username: 'cpiqgpwxgxmqjp',
     password: '9cffcba54244496f881342b3473dda500f4ec86d09e45ebc8140a1b095644e70',
     database: 'd4s3lg2c9olatn',
+    extra: {
+      ssl: {
+        rejectUnauthorized: false
+      }
+    },
     entities: [Producto],
     autoLoadEntities: true,
     synchronize: true
